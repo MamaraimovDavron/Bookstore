@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Card from './Card';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default class App extends Component {
+  render() {
+    return (
+      <div className='App--container'>
+        <Card
+          image="https://irs.www.warnerbros.com/keyart-jpeg/movies/media/browser/the_great_gatsby_key_art.jpg"
+          author="F. Scott Fitzgerald"
+          publishYear="April 10, 1925"
+          description="Lorem ipsum dolor sit amet."
+          price="35" />
 
-export default App;
+        <Card
+          image="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
+          author="Toni Morrison"
+          publishYear="September 1987"
+          description="Lorem ipsum dolor sit amet."
+          price="25" />
+
+        <Card
+          image="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
+          author="Toni Morrison"
+          publishYear="September 1987"
+          description="Lorem ipsum dolor sit amet."
+          price="25" />
+
+        <Card
+          image="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
+          author="Toni Morrison"
+          publishYear="September 1987"
+          description="Lorem ipsum dolor sit amet."
+          price="25" />
+      </div>
+    )
+  }
+}
