@@ -5,7 +5,7 @@ import './App.css';
 export default class App extends Component {
   render() {
     return (
-      <div className='App--container'>
+      <div className='wrapper'>
         <Card
           image="https://irs.www.warnerbros.com/keyart-jpeg/movies/media/browser/the_great_gatsby_key_art.jpg"
           author="F. Scott Fitzgerald"
@@ -14,25 +14,26 @@ export default class App extends Component {
           price="35" />
 
         <Card
-          image="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
+          image="https://kbimages1-a.akamaihd.net/e1baca56-0d4e-441f-bd3d-4abe2391d082/353/569/90/False/beloved-26.jpg"
           author="Toni Morrison"
           publishYear="September 1987"
           description="Lorem ipsum dolor sit amet."
           price="25" />
 
         <Card
-          image="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
-          author="Toni Morrison"
-          publishYear="September 1987"
+          image="https://m.media-amazon.com/images/I/51Ul1Wg3nBL.jpg"
+          author="George Orwell"
+          publishYear="8 June 1949"
           description="Lorem ipsum dolor sit amet."
-          price="25" />
+          price="45" />
 
         <Card
-          image="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
-          author="Toni Morrison"
-          publishYear="September 1987"
+          image="https://static.tvtropes.org/pmwiki/pub/images/selindjer_nad_propastyu_vo_rji.jpg"
+          author="J. D. Salinger"
+          publishYear="July 16, 1951"
           description="Lorem ipsum dolor sit amet."
-          price="25" />
+          price="55" />
+
       </div>
     )
   }
